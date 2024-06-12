@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оформление заказа</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="0_NAS.html">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+  <h1>Оформление заказа</h1>
+
+  <form action="order.php" method="post">
+    <label for="name">Ваше имя:</label>
+    <input type="text" name="name" id="name">
+
+    <label for="email">Ваш email:</label>
+    <input type="email" name="email" id="email">
+
+    <label for="phone">Ваш телефон:</label>
+    <input type="tel" name="phone" id="phone">
+
+    <label for="address">Ваш адрес:</label>
+    <input type="text" name="address" id="address">
+
+    <label for="product">Продукт:</label>
+    <select name="product" id="product">
+      <option value="tea">Чай</option>
+      <option value="coffee">Кофе</option>
+      <!-- Добавить сюда еще товары -->
+    </select>
+
+    <label for="quantity">Количество:</label>
+    <input type="number" name="quantity" id="quantity" min="1">
+
+    <input type="submit" value="Оформить заказ">
+  </form>
+  <footer>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="0_NAS.html">О нас</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <div class="contacts">
+      <p>Телефон: +7 (123) 456-7890</p>
+      <p>Адрес: улица Пушкина, г. Уссурийск</p>
+    </div>
+  </footer>
+</body>
+</html>
