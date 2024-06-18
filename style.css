@@ -2,6 +2,7 @@ body{
   background-color:antiquewhite;
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
+
 }
 .logo{
   font-size: 75px;
@@ -14,9 +15,10 @@ body{
   box-sizing: border-box;
 }
 h1{
-  font-size: 24px;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 30px;
   color: #333;
 }
 p{
@@ -83,7 +85,8 @@ li a:hover{
 }
 header{
   background-color: #f1f1f1;
-  padding: 20px 0;
+  padding: 20px ;
+  margin-bottom: 20px;
 }
 main{
   padding: 40px 20px;
@@ -157,8 +160,8 @@ nav ul li a {
   transition: background-color 0.3s; /* Плавный переход для фона при наведении */
 }
 
-font-family: Arial, sans-serif;
-}
+font-family Arial, sans-serif
+
 
 h1 {
   margin-top: 0;
@@ -166,7 +169,7 @@ h1 {
 
 form {
   width: 50%;
-  margin: 0 auto;
+  margin: 200px auto;
 }
 
 label {
@@ -203,7 +206,7 @@ footer ul {
 }
 footer ul li {
   display: inline;
-  margin: 0 15px;
+  margin:  25px;
 }
 
 footer {
